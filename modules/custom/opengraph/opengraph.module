@@ -1,0 +1,8 @@
+<?php
+
+use Drupal\opengraph\OpenGraphMetaService;
+
+function opengraph_page_attachments(array &$page) {
+  $metaService = \Drupal::service('opengraph.meta_service');
+  $metaService->createOpenGraphMetaTags($page);
+}

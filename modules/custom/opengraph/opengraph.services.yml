@@ -1,0 +1,3 @@
+services:
+  opengraph.meta_service:
+    class: Drupal\opengraph\OpenGraphMetaService
